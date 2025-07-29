@@ -1,4 +1,4 @@
-Bagus! Kamu pakai **Laravel 12 + React (frontend)** dan ingin jalan di **FrankenPHP** di VPS Debian — ini stack yang modern dan performa tinggi (native PHP server + asynchronous support).
+**Laravel 12 + React (frontend)** dan ingin jalan di **FrankenPHP** di VPS Debian — ini stack yang modern dan performa tinggi (native PHP server + asynchronous support).
 
 Berikut **langkah-langkah lengkap untuk deploy Laravel + React dengan FrankenPHP di Debian VPS**.
 
@@ -183,13 +183,3 @@ php artisan octane:start --server=frankenphp
 ```
 
 Tapi kalau sudah pakai `php { worker /index.php }` di Caddyfile, FrankenPHP bisa langsung handle persistent worker **tanpa Octane**.
-
----
-
-Kalau kamu butuh:
-
-* Contoh Caddyfile untuk subdomain
-* Docker setup untuk Laravel + React + FrankenPHP
-* CI/CD deploy pipeline (GitHub Actions)
-
-Aku bisa bantu. Mau lanjut ke mana sekarang?
